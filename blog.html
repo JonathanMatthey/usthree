@@ -1,0 +1,44 @@
+---
+layout: default
+title: Blog
+---
+
+
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+
+    {% for post in site.categories.blog %}
+    <div class="row">
+      <div class="post col-md-10 col-md-offset-1">
+        <h2>
+          {{ post.title }}
+        </h2>
+        <p>
+          {% if post.content contains '<!--more-->' %}
+          {{ post.content | split:'<!--more-->' | first }}
+          {% else %}
+          {{ post.content }}
+          {% endif %}
+        </p>
+
+        <div class="meta clearfix">
+          <div class="author">
+            by
+            <span class="author-name">
+              {{ post.author }}
+            </span>
+            on
+            <span class="date">
+              {{ post.date | date: "%-d %B %Y" }}
+            </span>
+          </div>
+          <div class="comments">
+            <span class="comment-count"></span>Comments
+          </div>
+        </div>
+
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

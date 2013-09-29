@@ -1,0 +1,25 @@
+---
+layout: default
+title: Studio People
+---
+
+<ul class="projects clearfix">
+{% for post in site.categories.work %}
+  <li>
+    <div class="project">
+      <a class="cover" href="{{ post.url }}">
+        <div class="project-details">
+          <span>
+            {{ post.title }}
+          </span>
+          <span>
+            {{ post.worktype }}
+          </span>
+          <span>
+          </span>
+        </div>
+      </a>
+    </div>
+  </li>
+{% endfor %}
+</ul>

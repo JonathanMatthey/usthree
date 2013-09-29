@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--
+                                                                                  
+                                                     8NNN8                        
+                                            ~NDNNNNNNNNNNNN                       
+                                   +DMNNNNNNNNNNNNNDN?          ND                
+                          INNNNNNNNNNNNNNNND=                  NNNN NNNNNNNN      
+                  =NNNNNNNNNNNNNNNDN7NN       NN      ,7      NNNNN ,NNNNNNN,     
+                  NNNNNNNN8         NNNN     NNNN     NNN8   NM NNN    NNN        
+                                    DNNN    N NNN   8NNNN   NN ONND    NNN        
+                           NNND     NNND   NN NNN  NNNNNN  NN  NNN$   NNNN        
+         N       ,NN      NNNNNN    NNN   ND NNNN NNNNNNN7NN   NNN   ?NNN         
+       DNNNN     NNNN    NNNNNNN   NNNN  DN  NNN$DNN8DNNNNN    ,NN8 8NNN,         
+        8NNN    NNNN,  :NNM  NNN   NNNN NN   NNNNNN+ NNNNN       DNNNNN           
+         NND   NNNNN  NNNN   NNN   NNNDNN    NNNNN   NNNN,                        
+        DNNN DNNNNNN NNN7    NNNN  NNNNN     NNND     IN,                         
+        NNNDNNNNZNNNDND    NNNNNN  NNNN       NN                                  
+        DNNNNNN NNNNND     NNNNN8   MN                                            
+        NNNNN8  DNNN        ZDM                                                   
+        NNNN:   NNN                                                               
+        ~NN                                                                       
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+  Want a job ? check out out www.ustwo.us/jobs
+
+-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Custom CSS -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300' rel='stylesheet' type='text/css'>
+  <link href="{{ site.baseurl }}css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <link href="{{ site.baseurl }}css/normalize.css" rel="stylesheet" type="text/css" />
+  <link href="{{ site.baseurl }}css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="{{ site.baseurl }}css/print.css" media="print" rel="stylesheet" type="text/css" />
+
+  <!--[if IE]>
+      <link href="stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
+</head>
+<body>
+  <div class="header">
+    <div class="inner">
+      <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <h1 class="title"><a href="/"><img class="logo" src="{{ site.baseurl }}img/ustwo-logo-white.png"/></a></h1>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="{{ site.baseurl }}how-what.html"  class="clearfix"><span class="nav-item-title">DREAMERS &amp; DOERS</span><span class="subtitle">How / What</span></a></li>
+            <li><a href="{{ site.baseurl }}games.html"  class="clearfix"><span class="nav-item-title">players &amp; makers</span><span class="subtitle">Games</span></a></li>
+            <li><a href="{{ site.baseurl }}blog.html"  class="clearfix"><span class="nav-item-title">thinkers &amp; talkers</span><span class="subtitle">Blog</span></a></li>
+            <li><a href="{{ site.baseurl }}studio-people.html"  class="clearfix"><span class="nav-item-title">locals &amp; internationals</span><span class="subtitle">Studio / People</span></a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </nav>
+
+    </div>
+  </div>
+
+  <div class="cover">
+
+    <img class="huge-ustwo-logo" src="http://www.sogoodblog.com/wp-content/uploads/2008/01/best-squirrel-shot.JPG"/>
+    
+  </div>
+  
+  <div class="container">
+    <div class="content">
+      {{ content }}
+
+      <div class="footer">
+        footer
+      </div>
+    </div>
+  </div>
+
+  <script src="{{ site.baseurl }}js/jquery-1.10.2.min.js"></script>
+  <script src="{{ site.baseurl }}js/bootstrap.min.js"></script>
+  <script defer src="{{ site.baseurl }}js/main.js"></script>
+  <script>
+    // window._gaq = [['_setAccount','{{ site.analytics }}'],['_trackPageview'],['_trackPageLoadTime']];
+    // Modernizr.load({
+    //   load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    // });
+  </script>
+
+</body>
+</html>
