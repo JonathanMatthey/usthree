@@ -1,4 +1,4 @@
 name: usTwo
 markdown: redcarpet
 pygments: true
-baseurl: "http://localhost/dev/ustwo/magcover/_site/"
+# baseurl: "http://localhost/dev/ustwo/magcover/_site/"

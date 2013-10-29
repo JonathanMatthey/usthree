@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-default{
   border: none;
-  background-color:#fff;
+  background-color:transparent;
 }
 
 .navbar{
@@ -94,11 +94,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .header{
   z-index: 9;
-  border-bottom:1px solid #eee;
   position: fixed;
   top:0;
   width:100%;
-  background-color:#fff;
+  background-color:transparent;
 
   h1{
     float:left;
@@ -122,22 +121,29 @@ h1, h2, h3, h4, h5, h6 {
      a{
       padding: 10px 0;
       -webkit-transition: all 100ms linear;
+      opacity: 1;
       &:hover{
-        background-color:#f7f7f7;
+        // background-color:#f7f7f7;
+        opacity: 1;
       }
       span{
         clear:both;
         float:left;
         text-transform: uppercase;
         margin: 0 20px;
-        color:#333;
+        color:#fff;
         line-height: 16px;
       }
       .nav-item-title{
        font-weight:600;
      }
+      &:hover .subtitle{
+        opacity: 1;
+     }
      .subtitle{
-      color:#aaa;
+      -webkit-transition: all 100ms linear;
+      color:#fff;
+      opacity: 0.7;
       font-size:12px;
     }
   }
@@ -166,8 +172,49 @@ h1, h2, h3, h4, h5, h6 {
 /*****************************************************************************/
 
 
+
+
+
 .container{
   margin-top:100px;
+}
+
+
+
+/*****************************************************************************/
+/*
+/* Index page
+/*
+/*****************************************************************************/
+
+
+.homepage{
+  article{
+    padding:0;
+
+    a{
+      display: block;
+
+      img{
+        width:100%;
+        display: block;
+      }
+    }
+
+    .inner{
+      position: absolute;
+      bottom:0%;
+      right:0%;
+      padding:6px 14px;
+      background-color:rgba(0,0,0,0.3);
+
+      h2{
+        color:#fff;
+        font-size:18px;
+        opacity: 0.9;
+      }
+    }
+  }
 }
 
 
