@@ -5,48 +5,9 @@ title: Home
 
 <div class="homepage">
   <div class="row">
-    <div class="col-md-12">
-      {% assign post = site.categories.work[0] %}
-      <article class="col-md-7">
-        <a href="{{ post.url }}">
-          <img src="img/{{ post.main_img }}"/>
-        </a>
-        <div class="inner">
-          <h2>
-            {{ post.title }}
-          </h2>
-        </div>
-      </article>
-
-      {% assign post = site.categories.work[1] %}
-      <article class="col-md-5" >
-        <a href="{{ post.url }}">
-          <img src="img/{{ post.main_img }}"/>
-        </a>
-        <div class="inner">
-          <h2>
-            {{ post.title }}
-          </h2>
-        </div>
-      </article>
-    </div>
-  </div>  
-  <div class="row">
-
-    <div class="col-md-12">
-      {% assign post = site.categories.games[0] %}
-      <article class="col-md-4">
-        <a href="{{ post.url }}">
-          <img src="img/{{ post.main_img }}"/>
-        </a>
-        <div class="inner">
-          <h2>
-            {{ post.title }}
-          </h2>
-        </div>
-      </article>
+    <div class="col-md-5">
       {% assign post = site.categories.games[1] %}
-      <article class="col-md-4">
+      <article class="col-md-12">
         <a href="{{ post.url }}">
           <img src="img/{{ post.main_img }}"/>
         </a>
@@ -56,8 +17,19 @@ title: Home
           </h2>
         </div>
       </article>
-      {% assign post = site.categories.games[2] %}
-      <article class="col-md-4">
+      {% assign post = site.categories.work[1] %}
+      <article class="col-md-12">
+        <a href="{{ post.url }}">
+          <img src="img/{{ post.main_img }}"/>
+        </a>
+        <div class="inner">
+          <h2>
+            {{ post.title }}
+          </h2>
+        </div>
+      </article>
+      {% assign post = site.categories.work[2] %}
+      <article class="col-md-12">
         <a href="{{ post.url }}">
           <img src="img/{{ post.main_img }}"/>
         </a>
@@ -68,6 +40,54 @@ title: Home
         </div>
       </article>
     </div>
+    <div class="col-md-7">
+      {% assign post = site.categories.work[0] %}
+      <article class="col-md-12">
+        <a href="{{ post.url }}">
+          <img src="img/{{ post.main_img }}"/>
+        </a>
+        <div class="inner">
+          <h2>
+            {{ post.title }}
+          </h2>
+        </div>
+      </article>
+
+      {% assign post = site.categories.games[2] %}
+      <article class="col-md-6" >
+        <a href="{{ post.url }}">
+          <img src="img/{{ post.main_img }}"/>
+        </a>
+        <div class="inner">
+          <h2>
+            {{ post.title }}
+          </h2>
+        </div>
+      </article>
+      {% assign post = site.categories.games[0] %}
+      <article class="col-md-6" >
+        <a href="{{ post.url }}">
+          <img src="img/{{ post.main_img }}"/>
+        </a>
+        <div class="inner">
+          <h2>
+            {{ post.title }}
+          </h2>
+        </div>
+      </article>
+      {% assign post = site.categories.work[3] %}
+      <article class="col-md-12" >
+        <a href="{{ post.url }}">
+          <img src="img/{{ post.main_img }}"/>
+        </a>
+        <div class="inner">
+          <h2>
+            {{ post.title }}
+          </h2>
+        </div>
+      </article>
+    </div>
+
 
   </div>
 </div>

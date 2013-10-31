@@ -31,8 +31,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
   h1 { margin-bottom: 1em; }
-  p { 
-    margin: 1em 0; 
+  p {
+    margin: 1em 0;
     line-height: 22px;
     font-size:15px;
     font-weight:100;
@@ -81,8 +81,6 @@ h1, h2, h3, h4, h5, h6 {
 /*
 /*****************************************************************************/
 
-
-
 .navbar-default{
   border: none;
   background-color:transparent;
@@ -93,11 +91,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header{
+  background-color:#222;
   z-index: 9;
   position: fixed;
   top:0;
   width:100%;
-  background-color:transparent;
+  padding-top:10px;
 
   h1{
     float:left;
@@ -114,15 +113,16 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .inner{
-    max-width:1000px;
+    // max-width:1000px;
     margin:0 auto;
   }
   .navbar-collapse{
-     a{
-      padding: 10px 0;
-      -webkit-transition: all 100ms linear;
-      opacity: 1;
-      &:hover{
+   a{
+    font-size:16px;
+    padding: 10px 0;
+    -webkit-transition: all 100ms linear;
+    opacity: 1;
+    &:hover{
         // background-color:#f7f7f7;
         opacity: 1;
       }
@@ -132,19 +132,19 @@ h1, h2, h3, h4, h5, h6 {
         text-transform: uppercase;
         margin: 0 20px;
         color:#fff;
-        line-height: 16px;
+        line-height: 18px;
       }
       .nav-item-title{
        font-weight:600;
      }
-      &:hover .subtitle{
-        opacity: 1;
-     }
-     .subtitle{
+     &:hover .subtitle{
+      opacity: 1;
+    }
+    .subtitle{
       -webkit-transition: all 100ms linear;
       color:#fff;
       opacity: 0.7;
-      font-size:12px;
+      font-size:14px;
     }
   }
 }
@@ -189,15 +189,25 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .homepage{
+  margin-top:50px;
+
+  .row{
+    > div{
+      padding:0;
+
+    }
+  }
   article{
     padding:0;
-
+    float:left;
     a{
       display: block;
 
       img{
         width:100%;
         display: block;
+        -webkit-filter: grayscale(100%);
+        transition: all 100ms linear;
       }
     }
 
@@ -214,7 +224,11 @@ h1, h2, h3, h4, h5, h6 {
         opacity: 0.9;
       }
     }
+    &:hover a img{
+      -webkit-filter: grayscale(00%);
+    }
   }
+
 }
 
 
@@ -225,47 +239,47 @@ h1, h2, h3, h4, h5, h6 {
 /*****************************************************************************/
 
 
-  .post{
-    padding-top: 40px;
-    padding-bottom: 50px;
-    border-bottom: 1px solid #eee;
+.post{
+  padding-top: 40px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #eee;
 
-    h2{
-      font-size:26px;
-      margin-top:0;
-      padding-top:0;
-      padding-bottom:10px;
-      font-weight:400;
+  h2{
+    font-size:26px;
+    margin-top:0;
+    padding-top:0;
+    padding-bottom:10px;
+    font-weight:400;
 
-      &:hover{
-        color:#000;
-      }
+    &:hover{
+      color:#000;
     }
+  }
 
-    p{
-
-    }
-
-    .meta{
-      color:#999;
-      font-weight:100;
-      padding-top:10px;
-      .author{
-        float:left;
-      }
-      .author-name,.date{
-        font-weight:normal;
-      }      
-      .comments{
-        float:right;
-      }
-    }
-
-    .author{
-
-    }
+  p{
 
   }
+
+  .meta{
+    color:#999;
+    font-weight:100;
+    padding-top:10px;
+    .author{
+      float:left;
+    }
+    .author-name,.date{
+      font-weight:normal;
+    }
+    .comments{
+      float:right;
+    }
+  }
+
+  .author{
+
+  }
+
+}
 
 
 

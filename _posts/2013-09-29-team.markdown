@@ -1,0 +1,9 @@
+---
+layout: work
+title:  "team"
+date:   2013-09-28 12:25:22
+categories: work
+main_img: team.jpg
+---
+
+<p>Sony</p>

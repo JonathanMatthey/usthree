@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,45 +24,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../.rbenv/versions/1.9.3-p286/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -160,47 +160,48 @@ a:visited {
 /* Header
 /*
 /*****************************************************************************/
-/* line 86, ../_sass/screen.scss */
+/* line 84, ../_sass/screen.scss */
 .navbar-default {
   border: none;
   background-color: transparent;
 }
 
-/* line 91, ../_sass/screen.scss */
+/* line 89, ../_sass/screen.scss */
 .navbar {
   margin-bottom: 0;
 }
 
-/* line 95, ../_sass/screen.scss */
+/* line 93, ../_sass/screen.scss */
 .header {
+  background-color: #222;
   z-index: 9;
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: transparent;
+  padding-top: 10px;
 }
-/* line 102, ../_sass/screen.scss */
+/* line 101, ../_sass/screen.scss */
 .header h1 {
   float: left;
   padding: 0px;
   margin: 0;
 }
-/* line 107, ../_sass/screen.scss */
+/* line 106, ../_sass/screen.scss */
 .header h1 a {
   display: inline-block;
 }
-/* line 109, ../_sass/screen.scss */
+/* line 108, ../_sass/screen.scss */
 .header h1 a .logo {
   padding-top: 5px;
   width: 120px;
 }
-/* line 116, ../_sass/screen.scss */
+/* line 115, ../_sass/screen.scss */
 .header .inner {
-  max-width: 1000px;
   margin: 0 auto;
 }
-/* line 121, ../_sass/screen.scss */
+/* line 120, ../_sass/screen.scss */
 .header .navbar-collapse a {
+  font-size: 16px;
   padding: 10px 0;
   -webkit-transition: all 100ms linear;
   opacity: 1;
@@ -216,7 +217,7 @@ a:visited {
   text-transform: uppercase;
   margin: 0 20px;
   color: #fff;
-  line-height: 16px;
+  line-height: 18px;
 }
 /* line 137, ../_sass/screen.scss */
 .header .navbar-collapse a .nav-item-title {
@@ -231,7 +232,7 @@ a:visited {
   -webkit-transition: all 100ms linear;
   color: #fff;
   opacity: 0.7;
-  font-size: 12px;
+  font-size: 14px;
 }
 /* line 152, ../_sass/screen.scss */
 .header.hidden {
@@ -262,20 +263,31 @@ a:visited {
 /* Index page
 /*
 /*****************************************************************************/
-/* line 192, ../_sass/screen.scss */
-.homepage article {
-  padding: 0;
+/* line 191, ../_sass/screen.scss */
+.homepage {
+  margin-top: 50px;
 }
 /* line 195, ../_sass/screen.scss */
+.homepage .row > div {
+  padding: 0;
+}
+/* line 200, ../_sass/screen.scss */
+.homepage article {
+  padding: 0;
+  float: left;
+}
+/* line 203, ../_sass/screen.scss */
 .homepage article a {
   display: block;
 }
-/* line 198, ../_sass/screen.scss */
+/* line 206, ../_sass/screen.scss */
 .homepage article a img {
   width: 100%;
   display: block;
+  -webkit-filter: grayscale(100%);
+  transition: all 100ms linear;
 }
-/* line 204, ../_sass/screen.scss */
+/* line 214, ../_sass/screen.scss */
 .homepage article .inner {
   position: absolute;
   bottom: 0%;
@@ -283,11 +295,15 @@ a:visited {
   padding: 6px 14px;
   background-color: rgba(0, 0, 0, 0.3);
 }
-/* line 211, ../_sass/screen.scss */
+/* line 221, ../_sass/screen.scss */
 .homepage article .inner h2 {
   color: #fff;
   font-size: 18px;
   opacity: 0.9;
+}
+/* line 227, ../_sass/screen.scss */
+.homepage article:hover a img {
+  -webkit-filter: grayscale(0%);
 }
 
 /*****************************************************************************/
@@ -295,13 +311,13 @@ a:visited {
 /* Blog
 /*
 /*****************************************************************************/
-/* line 228, ../_sass/screen.scss */
+/* line 242, ../_sass/screen.scss */
 .post {
   padding-top: 40px;
   padding-bottom: 50px;
   border-bottom: 1px solid #eee;
 }
-/* line 233, ../_sass/screen.scss */
+/* line 247, ../_sass/screen.scss */
 .post h2 {
   font-size: 26px;
   margin-top: 0;
@@ -309,25 +325,25 @@ a:visited {
   padding-bottom: 10px;
   font-weight: 400;
 }
-/* line 240, ../_sass/screen.scss */
+/* line 254, ../_sass/screen.scss */
 .post h2:hover {
   color: #000;
 }
-/* line 249, ../_sass/screen.scss */
+/* line 263, ../_sass/screen.scss */
 .post .meta {
   color: #999;
   font-weight: 100;
   padding-top: 10px;
 }
-/* line 253, ../_sass/screen.scss */
+/* line 267, ../_sass/screen.scss */
 .post .meta .author {
   float: left;
 }
-/* line 256, ../_sass/screen.scss */
+/* line 270, ../_sass/screen.scss */
 .post .meta .author-name, .post .meta .date {
   font-weight: normal;
 }
-/* line 259, ../_sass/screen.scss */
+/* line 273, ../_sass/screen.scss */
 .post .meta .comments {
   float: right;
 }
@@ -338,7 +354,7 @@ a:visited {
 /*
  * Image replacement
  */
-/* line 283, ../_sass/screen.scss */
+/* line 297, ../_sass/screen.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -347,7 +363,7 @@ a:visited {
   *text-indent: -9999px;
 }
 
-/* line 291, ../_sass/screen.scss */
+/* line 305, ../_sass/screen.scss */
 .ir:before {
   content: "";
   display: block;
@@ -358,7 +374,7 @@ a:visited {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 302, ../_sass/screen.scss */
+/* line 316, ../_sass/screen.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -367,7 +383,7 @@ a:visited {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 311, ../_sass/screen.scss */
+/* line 325, ../_sass/screen.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -383,7 +399,7 @@ a:visited {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 328, ../_sass/screen.scss */
+/* line 342, ../_sass/screen.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -397,7 +413,7 @@ a:visited {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 341, ../_sass/screen.scss */
+/* line 355, ../_sass/screen.scss */
 .invisible {
   visibility: hidden;
 }
@@ -413,7 +429,7 @@ a:visited {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 358, ../_sass/screen.scss */
+/* line 372, ../_sass/screen.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -422,7 +438,7 @@ a:visited {
   /* 2 */
 }
 
-/* line 363, ../_sass/screen.scss */
+/* line 377, ../_sass/screen.scss */
 .clearfix:after {
   clear: both;
 }
@@ -431,7 +447,7 @@ a:visited {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 372, ../_sass/screen.scss */
+/* line 386, ../_sass/screen.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -452,7 +468,7 @@ a:visited {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 399, ../_sass/screen.scss */
+  /* line 413, ../_sass/screen.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -461,18 +477,18 @@ a:visited {
     text-shadow: none !important;
   }
 
-  /* line 407, ../_sass/screen.scss */
+  /* line 421, ../_sass/screen.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 411, ../_sass/screen.scss */
+  /* line 425, ../_sass/screen.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 415, ../_sass/screen.scss */
+  /* line 429, ../_sass/screen.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -480,33 +496,33 @@ a:visited {
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 425, ../_sass/screen.scss */
+  /* line 439, ../_sass/screen.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 430, ../_sass/screen.scss */
+  /* line 444, ../_sass/screen.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 435, ../_sass/screen.scss */
+  /* line 449, ../_sass/screen.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-  /* line 440, ../_sass/screen.scss */
+  /* line 454, ../_sass/screen.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 444, ../_sass/screen.scss */
+  /* line 458, ../_sass/screen.scss */
   img {
     max-width: 100% !important;
   }
@@ -515,7 +531,7 @@ a:visited {
     margin: 0.5cm;
 }
 
-  /* line 454, ../_sass/screen.scss */
+  /* line 468, ../_sass/screen.scss */
   p,
   h2,
   h3 {
@@ -523,7 +539,7 @@ a:visited {
     widows: 3;
   }
 
-  /* line 460, ../_sass/screen.scss */
+  /* line 474, ../_sass/screen.scss */
   h2,
   h3 {
     page-break-after: avoid;
